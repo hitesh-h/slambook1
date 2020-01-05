@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <script src="jq.js"></script>
+    <script src="main.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <header class="head">SLAM BOOK</header>
+    <div class="container">
+         <div class="slider">
+          <div class="img1" id="img1">
+           <img class="img"  src="21.jpg" height="530px" width="600px">
+           <button type="button" id="button1" class="btn" name="button">></button>
+           <button type="button" id="button2" class="btn2" name="button"><</button>
+          </div>
+          <div class="img1" id="img2">
+          <img class="img"  src="2.jpg" height="530px" width="600px">
+          <button type="button" id="button3" class="btn" name="button">></button>
+          <button type="button" id="button4" class="btn2" name="button"><</button>
+          </div>
+          <div class="img1" id="img3">
+            <img class="img"   src="23.jpg" height="530px" width="600px">
+            <button type="button" id="button5" class="btn" name="button">></button>
+            <button type="button" id="button6" class="btn2" name="button"><</button>
+          </div>
+          <div class="sh" id="img4">
+              <img class="img" src="4.jpg" height="530px" width="600px">
+              <button type="button" id="button7" class="btn" name="button">></button>
+              <button type="button" id="button8" class="btn2" name="button"><</button>
+          </div>
+          </div>
+          <div class="form">
+           <div class="login" id="loginn">
+            <header class="h">
+            LOGIN</header>
+             <hr>
+                <form id="form_submit" method="post" action="userdetail.html">
+                  <input type="text" id="usertext" class="text" placeholder="ENTER THE USERNAME">
+                    <div id="err1" class="err"></div>
+                        <input type="password" id="userpass" placeholder="ENTER THE PASSWORD" class="text1" >
+                          <div id="err2" class="err"></div>
+                            <br>
+                            <button type="submit" class="lb" id="login">LOGIN</button>
+                            <br>
+                            <button type="button" class="sn" id="signin">SIGN IN</button>
+                           </form>
+                        </div>
+                 <div class="signin" id="signinn">
+                 <header class="h">
+                 SIGN IN</header>
+                <hr>
+                <form id="sign_submit" action="main.html">
+                <input type="text" id="sign_text" class="text" placeholder="ENTER THE USERNAME">
+                <span id="error1" class="err">**please enter correct username**</span>
+                <input type="password" id="sign_pass" placeholder="ENTER THE PASSWORD" class="text1" >
+                <span id="error2" class="err">**please enter correct password**</span>
+                <br><br>
+                <button type="submit" id="sign_button" class="lb">SIGN IN</button>
+                </form>
+                     </div>
+                     </div>
+                     </div>
+</body>
+</html>

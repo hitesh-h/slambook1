@@ -1,0 +1,39 @@
+body {
+  animation: colorchange 10s;
+  -webkit-animation: colorchange 10s;
+  background:url('6.jpg');
+  animation-iteration-count: 4;
+}
+@keyframes colorchange
+{
+  50%  {background: url('1.jpg');}
+  100%   {background: url('6.jpg');}
+}
+.div{
+  height: 100%;
+  width: 100%;
+}
+.p{
+  margin-left: 300px;
+  font-size: 50px;
+  margin-top: 250px;
+  letter-spacing: 5px;
+  color: white;
+  font-style: italic;
+  font-family:sans-serif;
+}
+.btn{
+  height: 50px;
+  width:180px;
+  margin-left: 550px;
+  background: transparent;
+  outline: none;
+  color: white;
+  font-style: italic;
+  font-family: sans-serif;
+  border-radius: 12%;
+}
+.btn:hover{
+  background: white;
+  color: black;
+}

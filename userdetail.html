@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="userdetail.css">
+    <script src="jq.js"></script>
+    <script src="userdetail.js"></script>
+    <title></title>
+  </head>
+  <body class="body">
+    <fieldset class="fieldset">
+      <legend class="le">PERSONAL INFORMATION</legend>
+          <form  id="save" action="last.html"  method="post">
+            <table cellspacing="10px">
+              <tr>
+                <td><input type="text" class="text" id="name" placeholder="ENTER YOUR NAME:"></td>
+                <td><input type="text" class="text" id="nickname" placeholder="ENTER YOUR NICK NAME:"></td>
+                <td><input type="text" class="text" id="fathername" placeholder="ENTER YOUR FATHER NAME:"></td>
+                <td><input type="text" class="text" id="mothername" placeholder="ENTER YOUR MOTHER NAME:"></td>
+              </tr>
+              <tr>
+                <td><label id="err_name"></label></td>
+                <td><label id="err_nick_name"></label></td>
+                <td><label id="err_father_name"></label></td>
+                <td><label id="err_mother_name"></label></td>
+              </tr>
+              <tr>
+                <td><label>ENTER YOUR DATA OF BIRTH:</label><input type="date" class="text" placeholder="ENTER YOUR DATE OF BIRTH" ></td>
+                <td><input type="text" class="text" id="mob" placeholder="ENTER YOUR MOBILE NUMBER:"></td>
+                <td colspan="2"><textarea class="text1" id="address" placeholder="ENTER YOUR ADDRESS"></textarea></td>
+              </tr>
+              <tr>
+                <td><label></label></td>
+                <td><label id="err_mobile"></label></td>
+                <td colspan="2"><label id="err_address"></label></td>
+              </tr>
+                 </table>
+
+        </fieldset>
+        <fieldset class="fieldset">
+          <legend class="le">YOUR FAVORITES THINGS</legend>
+          <table cellspacing="10px">
+            <tr>
+              <td><input type="text" class="text" id="acter" placeholder="ENTER YOUR FAVORITE ACTREES NAME:"></td>
+              <td><input type="text" class="text" id="food" placeholder="ENTER YOUR FAVORITE FOOD NAME:"></Td>
+              <td><input type="text" class="text" id="song" placeholder="ENTER YOUR FAVORITE SONG NAME:"></TD>
+              <td><input type="text" class="text" id="movie" placeholder="ENTER YOUR FAVORITE MOVIE NAME:"></td>
+            </tr>
+            <tr>
+              <td><label id="err_acter"></label></td>
+              <td><label id="err_food"></label></td>
+              <td><label id="err_song"></label></td>
+              <td><label id="err_movie"></label></td>
+            </tr>
+            <tr>
+                 <td colspan="2"><label>CHOOSE YOUR FAVORITE COLOR:</label><input type="color" class="c" placeholder="choose your favourite color"></td>
+                 <td><input type="text" class="text" id="hobbie" placeholder="ENTER YOUR FAVORITE HOBBIE:"></td>
+                 <td><input type="text" class="text" id="friend" placeholder="ENTER YOUR BEST FRIEND NAME"></TD>
+            </tr>
+            <tr>
+              <td colspan="2"><label></label></td>
+              <td><label id="err_hobbie"></label></td>
+              <td><label id="err_friend"></label></td>
+            </tr>
+            <TR>
+              <td><input type="text" class="text" id="teacher" placeholder="ENTER YOUR FAVORITE TEACHER NAME:"></td>
+                  <td><input type="text" class="text" id="dream" placeholder="YOUR DREAM:"></td>
+                  <td><input type="text" class="text" id="serial" placeholder="ENTER YOUR FAVORITE SERIAL NAME:"></td>
+                  <td><input type="text" class="text" id="game" placeholder="ENTER YOUR FAVORITE GAME NAME:"></td>
+              </TR>
+              <tr>
+
+                <td><label id="err_teacher"></label></td>
+                <td><label id="err_dream"></label></td>
+                <td><label id="err_serial"></label></td>
+                <td><label id="err_game"></label></td>
+              </tr>
+            </table>
+            </fieldset>
+
+            <fieldset class="fieldset">
+                      <legend class="le">YOUR EXPERIENCE</legend>
+                      <table cellspacing ="10px">
+                        <tr>
+                          <td colspan="2"><textarea id="us" placeholder="WHAT YOU THINKING ABOUT US" class="text1"></textarea></td>
+                          <td colspan="2"><textarea id="col" placeholder="YOUR BEST EXPERIENCE ABOUT COLLEGE LIFE" class="text1"></textarea></td>
+                        </tr>
+                        <tr>
+                          <td colspan="2"><label id="err_us"></label></td>
+                          <td colspan="2"><lebel id="err_col"></label></td>
+                          </tr>
+                        <tr>
+                          <td colspan="4"><button type="submit" class="btn">SAVE</button></td>
+                        </tr>
+                      </table>
+                    </form>
+            </fieldset>
+  </body>
+</html>

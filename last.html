@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="jq.js"> </script>
+    <title></title>
+    <style>
+         header{
+           font-size:100px;
+           text-align:center;
+           color:white;
+           margin-top:230px;
+         }
+         body {
+           animation: colorchange 10s; /* animation-name followed by duration in seconds*/
+              /* you could also use milliseconds (ms) or something like 2.5s */
+           -webkit-animation: colorchange 10s;
+           background:url('6.jpg');
+             animation-iteration-count: 4;/* Chrome and Safari */
+         }
+
+         @keyframes colorchange
+         {
+           50%  {background: url('1.jpg');}
+           100%   {background: url('6.jpg');}
+         }
+
+      </style>
+  </head>
+  <body>
+    <header>THANK YOU</header>
+  </body>
+</html>

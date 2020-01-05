@@ -1,0 +1,46 @@
+body {
+  animation: colorchange 10s; /* animation-name followed by duration in seconds*/
+     /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 10s;
+  background:url('6.jpg');
+    animation-iteration-count: 4;/* Chrome and Safari */
+}
+
+@keyframes colorchange
+{
+  50%  {background: url('1.jpg');}
+  100%   {background: url('6.jpg');}
+}
+.fieldset{
+  color: white;
+}
+.le{
+  font-size: 25px;
+}
+.text{
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+}
+.text1{
+  height: 30px;
+  width: 600px;
+  border-radius: 10px;
+}
+.c{
+  height: 30px;
+  width:600px;
+}
+  .btn{
+    height: 60px;
+    width: 600px;
+    border-radius: 10px;
+    color: white;
+    background: transparent;
+
+    outline: none;
+  }
+  .btn:hover{
+    background: white;
+    color: black;
+  }
